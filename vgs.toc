@@ -1,0 +1,8 @@
+## Interface: 11505
+## Title: VoiceGameSystem
+## Author: tdely
+## Version: 0.1.0
+
+vgs.lua
+emote.lua
+chat.lua

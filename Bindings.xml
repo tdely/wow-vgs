@@ -1,0 +1,308 @@
+<Bindings>
+  <Binding name="VGS_RESET">
+    VGS:reset();
+  </Binding>
+  <Binding name="VGS_EMOTE_EXEC">
+    VGS.Emote:exec();
+  </Binding>
+  <Binding name="VGS_CHAT_EXEC">
+    VGS.Chat:exec();
+  </Binding>
+
+  <Binding name="VGS_E_CAT_GLOBAL">
+    VGS.Emote:global();
+  </Binding>
+  <Binding name="VGS_E_CAT_COMPLIMENT">
+    VGS.Emote:compliment();
+  </Binding>
+  <Binding name="VGS_E_CAT_RESPOND">
+    VGS.Emote:respond();
+  </Binding>
+  <Binding name="VGS_E_CAT_SOCIAL">
+    VGS.Emote:social();
+  </Binding>
+  <Binding name="VGS_E_CAT_TAUNT">
+    VGS.Emote:taunt();
+  </Binding>
+  <Binding name="VGS_E_CAT_BATTLE">
+    VGS.Emote:battle();
+  </Binding>
+
+  <Binding name="VGS_E_AGREE">
+    VGS.Emote:emote("agree");
+  </Binding>
+  <Binding name="VGS_E_AMAZE">
+    VGS.Emote:emote("amaze");
+  </Binding>
+  <Binding name="VGS_E_ANGRY">
+    VGS.Emote:emote("angry");
+  </Binding>
+  <Binding name="VGS_E_ATTACKMYTARGET">
+    VGS.Emote:emote("attackmytarget");
+  </Binding>
+  <Binding name="VGS_E_APOLOGIZE">
+    VGS.Emote:emote("apologize");
+  </Binding>
+  <Binding name="VGS_E_APPLAUD">
+    VGS.Emote:emote("applaud");
+  </Binding>
+  <Binding name="VGS_E_BARK">
+    VGS.Emote:emote("bark");
+  </Binding>
+  <Binding name="VGS_E_BECKON">
+    VGS.Emote:emote("beckon");
+  </Binding>
+  <Binding name="VGS_E_BYE">
+    VGS.Emote:emote("bye");
+  </Binding>
+  <Binding name="VGS_E_CLAP">
+    VGS.Emote:emote("clap");
+  </Binding>
+  <Binding name="VGS_E_CHARGE">
+    VGS.Emote:emote("charge");
+  </Binding>
+  <Binding name="VGS_E_CHEER">
+    VGS.Emote:emote("cheer");
+  </Binding>
+  <Binding name="VGS_E_CHICKEN">
+    VGS.Emote:emote("chicken");
+  </Binding>
+  <Binding name="VGS_E_COMMEND">
+    VGS.Emote:emote("commend");
+  </Binding>
+  <Binding name="VGS_E_CONFUSED">
+    VGS.Emote:emote("confused");
+  </Binding>
+  <Binding name="VGS_E_CONGRATULATE">
+    VGS.Emote:emote("congratulate");
+  </Binding>
+  <Binding name="VGS_E_CRY">
+    VGS.Emote:emote("cry");
+  </Binding>
+  <Binding name="VGS_E_DISAPPOINTED">
+    VGS.Emote:emote("disappointed");
+  </Binding>
+  <Binding name="VGS_E_DRINK">
+    VGS.Emote:emote("drink");
+  </Binding>
+  <Binding name="VGS_E_FAIL">
+    VGS.Emote:emote("fail");
+  </Binding>
+  <Binding name="VGS_E_FLAP">
+    VGS.Emote:emote("flap");
+  </Binding>
+  <Binding name="VGS_E_FLEE">
+    VGS.Emote:emote("flee");
+  </Binding>
+  <Binding name="VGS_E_FOLLOWME">
+    VGS.Emote:emote("follow");
+  </Binding>
+  <Binding name="VGS_E_FROWN">
+    VGS.Emote:emote("frown");
+  </Binding>
+  <Binding name="VGS_E_GASP">
+    VGS.Emote:emote("gasp");
+  </Binding>
+  <Binding name="VGS_E_GOLFCLAP">
+    VGS.Emote:emote("golfclap");
+  </Binding>
+  <Binding name="VGS_E_GOODLUCK">
+    VGS.Emote:emote("goodluck");
+  </Binding>
+  <Binding name="VGS_E_GREET">
+    VGS.Emote:emote("greet");
+  </Binding>
+  <Binding name="VGS_E_HEALME">
+    VGS.Emote:emote("healme");
+  </Binding>
+  <Binding name="VGS_E_INCOMING">
+    VGS.Emote:emote("incoming");
+  </Binding>
+  <Binding name="VGS_E_LAUGH">
+    VGS.Emote:emote("laugh");
+  </Binding>
+  <Binding name="VGS_E_NO">
+    VGS.Emote:emote("no");
+  </Binding>
+  <Binding name="VGS_E_OOM">
+    VGS.Emote:emote("oom");
+  </Binding>
+  <Binding name="VGS_E_OPENFIRE">
+    VGS.Emote:emote("openfire");
+  </Binding>
+  <Binding name="VGS_E_TAUNT">
+    VGS.Emote:emote("taunt");
+  </Binding>
+  <Binding name="VGS_E_THANK">
+    VGS.Emote:emote("thank");
+  </Binding>
+  <Binding name="VGS_E_THREAT">
+    VGS.Emote:emote("threat");
+  </Binding>
+  <Binding name="VGS_E_READY">
+    VGS.Emote:emote("ready");
+  </Binding>
+  <Binding name="VGS_E_ROAR">
+    VGS.Emote:emote("roar");
+  </Binding>
+  <Binding name="VGS_E_ROFL">
+    VGS.Emote:emote("rofl");
+  </Binding>
+  <Binding name="VGS_E_RUDE">
+    VGS.Emote:emote("rude");
+  </Binding>
+  <Binding name="VGS_E_SERIOUS">
+    VGS.Emote:emote("serious");
+  </Binding>
+  <Binding name="VGS_E_SILLY">
+    VGS.Emote:emote("joke");
+  </Binding>
+  <Binding name="VGS_E_SHRUG">
+    VGS.Emote:emote("shrug");
+  </Binding>
+  <Binding name="VGS_E_SLAP">
+    VGS.Emote:emote("slap");
+  </Binding>
+  <Binding name="VGS_E_SPIT">
+    VGS.Emote:emote("spit");
+  </Binding>
+  <Binding name="VGS_E_STOPATTACK">
+    VGS.Emote:emote("stopattack");
+  </Binding>
+  <Binding name="VGS_E_VIOLIN">
+    VGS.Emote:emote("violin");
+  </Binding>
+  <Binding name="VGS_E_WAIT">
+    VGS.Emote:emote("wait");
+  </Binding>
+  <Binding name="VGS_E_WAVE">
+    VGS.Emote:emote("wave");
+  </Binding>
+  <Binding name="VGS_E_WHINE">
+    VGS.Emote:emote("whine");
+  </Binding>
+  <Binding name="VGS_E_WHISTLE">
+    VGS.Emote:emote("whistle");
+  </Binding>
+
+  <Binding name="VGS_C_CAT_GLOBAL">
+    VGS.Chat:global();
+  </Binding>
+  <Binding name="VGS_C_CAT_RESPOND">
+    VGS.Chat:respond();
+  </Binding>
+  <Binding name="VGS_C_CAT_TAUNT">
+    VGS.Chat:taunt();
+  </Binding>
+  <Binding name="VGS_C_CAT_COMPLIMENT">
+    VGS.Chat:compliment();
+  </Binding>
+  <Binding name="VGS_C_CAT_BATTLE">
+    VGS.Chat:battle();
+  </Binding>
+  <Binding name="VGS_C_CAT_SELF">
+    VGS.Chat:self();
+  </Binding>
+
+  <Binding name="VGS_C_G_YES">
+    VGS.Chat:chat("Yes");
+  </Binding>
+  <Binding name="VGS_C_G_NO">
+    VGS.Chat:chat("No");
+  </Binding>
+  <Binding name="VGS_C_G_HI">
+    VGS.Chat:chat("Hi");
+  </Binding>
+  <Binding name="VGS_C_G_BYE">
+    VGS.Chat:chat("Bye");
+  </Binding>
+  <Binding name="VGS_C_G_OOPS">
+    VGS.Chat:chat("Oops");
+  </Binding>
+  <Binding name="VGS_C_G_QUIET">
+    VGS.Chat:chat("Quiet");
+  </Binding>
+  <Binding name="VGS_C_G_SHAZBOT">
+    VGS.Chat:chat("SHAZBOT");
+  </Binding>
+  <Binding name="VGS_C_G_WOOHOO">
+    VGS.Chat:chat("Woohoo!");
+  </Binding>
+  <Binding name="VGS_C_G_FOLLOWME">
+    VGS.Chat:chat("Follow me");
+  </Binding>
+
+  <Binding name="VGS_C_GC_AWESOME">
+    VGS.Chat:chat("Awesome");
+  </Binding>
+  <Binding name="VGS_C_GC_GOODGAME">
+    VGS.Chat:chat("Good game");
+  </Binding>
+  <Binding name="VGS_C_GC_NICEMOVE">
+    VGS.Chat:chat("Nice move");
+  </Binding>
+  <Binding name="VGS_C_GC_YOUROCK">
+    VGS.Chat:chat("You rock");
+  </Binding>
+
+  <Binding name="VGS_C_GR_ANYTIME">
+    VGS.Chat:chat("Any time");
+  </Binding>
+  <Binding name="VGS_C_GR_DONTKNOW">
+    VGS.Chat:chat("I don't know.");
+  </Binding>
+  <Binding name="VGS_C_GR_THANKS">
+    VGS.Chat:chat("Thanks");
+  </Binding>
+  <Binding name="VGS_C_GR_WAIT">
+    VGS.Chat:chat("Wait");
+  </Binding>
+
+  <Binding name="VGS_C_GT_BEST">
+    VGS.Chat:chat("Is that the best you can do?");
+  </Binding>
+  <Binding name="VGS_C_GT_GREATEST">
+    VGS.Chat:chat("I am the greatest!");
+  </Binding>
+  <Binding name="VGS_C_GT_GRACEFUL">
+    VGS.Chat:chat("THAT was graceful!");
+  </Binding>
+  <Binding name="VGS_C_GT_WHEN">
+    VGS.Chat:chat("When will you learn?");
+  </Binding>
+
+  <Binding name="VGS_C_B_ATTACK">
+    VGS.Chat:chat("Attack");
+  </Binding>
+  <Binding name="VGS_C_B_RETREAT">
+    VGS.Chat:chat("Retreat");
+  </Binding>
+  <Binding name="VGS_C_B_FIRE">
+    VGS.Chat:chat("Fire!");
+  </Binding>
+  <Binding name="VGS_C_B_CHASE">
+    VGS.Chat:chat("Chase the enemy!");
+  </Binding>
+  <Binding name="VGS_C_B_COVER">
+    VGS.Chat:chat("Cover me!");
+  </Binding>
+  <Binding name="VGS_C_B_WAIT">
+    VGS.Chat:chat("Wait for my signal before attack.");
+  </Binding>
+  <Binding name="VGS_C_B_CROWDCONTROL">
+    VGS.Chat:chat("Employ crowd control.");
+  </Binding>
+
+  <Binding name="VGS_C_S_ATTACK">
+    VGS.Chat:chat("I'll attack.");
+  </Binding>
+  <Binding name="VGS_C_S_RETREAT">
+    VGS.Chat:chat("I'll retreat.");
+  </Binding>
+  <Binding name="VGS_C_S_COVER">
+    VGS.Chat:chat("I'll cover you.");
+  </Binding>
+  <Binding name="VGS_C_S_CROWDCONTROL">
+    VGS.Chat:chat("I'll employ crowd control.");
+  </Binding>
+</Bindings>
