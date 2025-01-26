@@ -20,7 +20,7 @@ function vgs.Emote:global()
   SetOverrideBinding(vgs_frame, true, "W", "VGS_E_WAVE")
   SetOverrideBinding(vgs_frame, true, "F", "VGS_E_FOLLOWME")
   vgs:debug("VGS global")
-  vgs_frame.text:SetText([[
+  vgs:write([[
 |cnDARKYELLOW_FONT_COLOR:[C] Compliment|r
 |cnDARKYELLOW_FONT_COLOR:[R] Respond|r
 |cnDARKYELLOW_FONT_COLOR:[T] Taunt|r
@@ -45,7 +45,7 @@ function vgs.Emote:compliment()
   SetOverrideBinding(vgs_frame, true, "G", "VGS_E_CONGRATULATE")
   SetOverrideBinding(vgs_frame, true, "Z", "VGS_E_AMAZE")
   vgs:debug("VGS compliment")
-  vgs_frame.text:SetText([[
+  vgs:write([[
 [C] Cheer|TInterface/ChatFrame/UI-ChatIcon-ArmoryChat:14:14:0:0:16:16:0:16:0:16:73:177:73|t
 [A] Applaud|TInterface/ChatFrame/UI-ChatIcon-ArmoryChat:14:14:0:0:16:16:0:16:0:16:73:177:73|t
 [W] Well done|TInterface/ChatFrame/UI-ChatIcon-ArmoryChat:14:14:0:0:16:16:0:16:0:16:73:177:73|t
@@ -66,7 +66,7 @@ function vgs.Emote:respond()
   SetOverrideBinding(vgs_frame, true, "F", "VGS_E_FAIL")
   SetOverrideBinding(vgs_frame, true, "G", "VGS_E_GOODLUCK")
   SetOverrideBinding(vgs_frame, true, "C", "VGS_E_CONFUSED")
-  vgs_frame.text:SetText([[
+  vgs:write([[
 [A] Laugh|TInterface/ChatFrame/UI-ChatIcon-ArmoryChat:14:14:0:0:16:16:0:16:0:16:73:177:73|t
 [S] Shrug|T587715:11|t
 [W] Wait|TInterface/ChatFrame/UI-ChatIcon-ArmoryChat:14:14:0:0:16:16:0:16:0:16:73:177:73|t
@@ -89,7 +89,7 @@ function vgs.Emote:taunt()
   SetOverrideBinding(vgs_frame, true, "C", "VGS_E_CHICKEN")
   SetOverrideBinding(vgs_frame, true, "V", "VGS_E_VIOLIN")
   vgs:debug("VGS taunt")
-  vgs_frame.text:SetText([[
+  vgs:write([[
 [S] Spit
 [R] Rude|T587715:11|t
 [T] Taunt|TInterface/ChatFrame/UI-ChatIcon-ArmoryChat:14:14:0:0:16:16:0:16:0:16:73:177:73|t
@@ -116,7 +116,7 @@ function vgs.Emote:social()
   SetOverrideBinding(vgs_frame, true, "B", "VGS_E_BECKON")
   SetOverrideBinding(vgs_frame, true, "X", "VGS_E_LAUGH")
   vgs:debug("VGS social")
-  vgs_frame.text:SetText([[
+  vgs:write([[
 [A] Angry|T587715:11|t
 [S] Silly|TInterface/ChatFrame/UI-ChatIcon-ArmoryChat:14:14:0:0:16:16:0:16:0:16:73:177:73|t
 [D] Drink|T587715:11|t
@@ -145,7 +145,7 @@ function vgs.Emote:battle()
   SetOverrideBinding(vgs_frame, true, "T", "VGS_E_OOM")
   SetOverrideBinding(vgs_frame, true, "X", "VGS_E_INCOMING")
   vgs:debug("VGS battle")
-  vgs_frame.text:SetText([[
+  vgs:write([[
 [A] Attack|TInterface/ChatFrame/UI-ChatIcon-ArmoryChat:14:14:0:0:16:16:0:16:0:16:73:177:73|t
 [S] Stop attacking
 [W] Wait|TInterface/ChatFrame/UI-ChatIcon-ArmoryChat:14:14:0:0:16:16:0:16:0:16:73:177:73|t
@@ -170,7 +170,7 @@ function vgs.Emote:veryquick()
   SetOverrideBinding(vgs_frame, true, "F", "VGS_E_FLEE")
   SetOverrideBinding(vgs_frame, true, "T", "VGS_E_OOM")
   vgs:debug("VGS battle")
-  vgs_frame.text:SetText([[
+  vgs:write([[
 [A] Attack|TInterface/ChatFrame/UI-ChatIcon-ArmoryChat:14:14:0:0:16:16:0:16:0:16:73:177:73|t
 [S] Stop attacking
 [W] Incoming|TInterface/ChatFrame/UI-ChatIcon-ArmoryChat:14:14:0:0:16:16:0:16:0:16:73:177:73|t
@@ -190,7 +190,7 @@ function vgs.Emote:exec()
   SetOverrideBinding(vgs_frame, true, "B", "VGS_E_CAT_BATTLE")
   SetOverrideBinding(vgs_frame, true, "S", "VGS_E_CAT_SOCIAL")
   vgs:debug("VGS active")
-  vgs_frame.text:SetText([[
+  vgs:write([[
 |cnDARKYELLOW_FONT_COLOR:[G] Global|r
 |cnDARKYELLOW_FONT_COLOR:[B] Battle|r
 |cnDARKYELLOW_FONT_COLOR:[S] Social|r

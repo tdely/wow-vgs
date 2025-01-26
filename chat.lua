@@ -21,7 +21,7 @@ function vgs.Chat:global()
   SetOverrideBinding(vgs_frame, true, "F", "VGS_C_G_FOLLOWME")
   SetOverrideBinding(vgs_frame, true, "X", "VGS_C_G_OOPS")
   vgs:debug("VGS global")
-  vgs_frame.text:SetText([[
+  vgs:write([[
 |cnDARKYELLOW_FONT_COLOR:[C] Compliment|r
 |cnDARKYELLOW_FONT_COLOR:[R] Respond|r
 |cnDARKYELLOW_FONT_COLOR:[T] Taunt|r
@@ -45,7 +45,7 @@ function vgs.Chat:compliment()
   SetOverrideBinding(vgs_frame, true, "G", "VGS_C_GC_GOODGAME")
   SetOverrideBinding(vgs_frame, true, "R", "VGS_C_GC_YOUROCK")
   vgs:debug("VGS compliment")
-  vgs_frame.text:SetText([[
+  vgs:write([[
 [A] Awesome
 [G] Good game
 [R] You rock
@@ -62,7 +62,7 @@ function vgs.Chat:respond()
   SetOverrideBinding(vgs_frame, true, "T", "VGS_C_GR_THANKS")
   SetOverrideBinding(vgs_frame, true, "W", "VGS_C_GR_WAIT")
   vgs:debug("VGS respond")
-  vgs_frame.text:SetText([[
+  vgs:write([[
 [A] Any time
 [D] Don't know
 [T] Thanks
@@ -80,7 +80,7 @@ function vgs.Chat:taunt()
   SetOverrideBinding(vgs_frame, true, "T", "VGS_C_GT_GRACEFUL")
   SetOverrideBinding(vgs_frame, true, "W", "VGS_C_GT_WHEN")
   vgs:debug("VGS taunt")
-  vgs_frame.text:SetText([[
+  vgs:write([[
 [B] Best you can do?
 [G] I am the greatest!
 [T] THAT was graceful!
@@ -103,7 +103,7 @@ function vgs.Chat:battle()
   SetOverrideBinding(vgs_frame, true, "Z", "VGS_C_B_CROWDCONTROL")
   SetOverrideBinding(vgs_frame, true, "X", "VGS_C_B_INCOMING")
   vgs:debug("VGS battle")
-  vgs_frame.text:SetText([[
+  vgs:write([[
 [A] Attack
 [R] Retreat
 [D] Cover me!
@@ -126,7 +126,7 @@ function vgs.Chat:self()
   SetOverrideBinding(vgs_frame, true, "C", "VGS_C_S_COVER")
   SetOverrideBinding(vgs_frame, true, "Z", "VGS_C_S_CROWDCONTROL")
   vgs:debug("VGS self")
-  vgs_frame.text:SetText([[
+  vgs:write([[
 [A] Attack
 [R] Retreat
 [C] Cover
@@ -143,7 +143,7 @@ function vgs.Chat:exec()
   SetOverrideBinding(vgs_frame, true, "B", "VGS_C_CAT_BATTLE")
   SetOverrideBinding(vgs_frame, true, "S", "VGS_C_CAT_SELF")
   vgs:debug("VGS active")
-  vgs_frame.text:SetText([[
+  vgs:write([[
 |cnDARKYELLOW_FONT_COLOR:[G] Global|r
 |cnDARKYELLOW_FONT_COLOR:[B] Battle|r
 |cnDARKYELLOW_FONT_COLOR:[S] Self|r
